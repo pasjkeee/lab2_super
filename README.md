@@ -48,6 +48,6 @@ int res = (dataInMb * 1024) / sqrt(3*dataInMb);
 | OMP 4 thread  |         6          |         32         |        88          |       633          |        758         |
 | OMP 6 thread  |         6          |         34         |        66          |       349          |        654         |
 
-![image](https://user-images.githubusercontent.com/72603507/190681127-ba8bbeea-d01a-4ccb-bc7b-d0687b1564bc.png)
+<img width="624" alt="Снимок экрана 2022-09-30 в 11 06 47" src="https://user-images.githubusercontent.com/72603507/193223312-3eb418a5-b0a7-4c31-96a5-1535b719de05.png">
 
 
