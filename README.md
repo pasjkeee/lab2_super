@@ -41,7 +41,7 @@ int res = (dataInMb * 1024) / sqrt(3*dataInMb);
 Если e => уонец приема
 
 
-#### pragma omp parallel for num_threads(6) shared(res_buf, res_arr, arr) private (ii, jj) reduction(+: rowsum) schedule(static)
+### pragma omp parallel for num_threads(6) shared(res_buf, res_arr, arr) private (ii, jj) reduction(+: rowsum) schedule(static)
 
 __num_threads__ число потоков
 
